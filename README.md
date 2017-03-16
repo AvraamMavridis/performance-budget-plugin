@@ -2,9 +2,10 @@
   <h1><code>performance-budget-plugin</code> for webpack</h1>
 </div>
 
-Measure the impact of your changes between to the performance of your application.
-The plugin works with the help of webpack dev server and gathers metrics between
-the re-builds every time you make some changes in your codebase.
+Measure the impact of your changes to the performance of your application.
+The plugin works with the help of `webpack dev server` and gathers metrics between
+the re-builds (every time you make some changes in your codebase). It is recommended to have
+the hot module replacement turn off when you use this plugin.
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
