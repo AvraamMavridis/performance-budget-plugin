@@ -1,0 +1,27 @@
+{
+  "name": "performance-budget-plugin",
+  "version": "1.0.0",
+  "description": "Performance budget plugin for Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvraamMavridis/performance-budget-plugin.git"
+  },
+  "keywords": [
+    "performance",
+    "perf",
+    "budget",
+    "webperf",
+    "webpack",
+    "plugin"
+  ],
+  "author": "Avraam Mavridis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AvraamMavridis/performance-budget-plugin/issues"
+  },
+  "homepage": "https://github.com/AvraamMavridis/performance-budget-plugin#readme"
+}
