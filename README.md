@@ -41,6 +41,21 @@ module.exports = {
 
 ```
 
+### Results
+
+A little while after webpack finishes the compilation you will get in your terminal impacts of your changes. e.g.
+
+<a href="https://ibb.co/jqrRrF"><img src="https://image.ibb.co/gsOHyv/Screen_Shot_2017_03_16_at_18_36_40.png" alt="Screen_Shot_2017_03_16_at_18_36_40" border="0" width="400"></a><br /><br />
+
+
+Passing `minimal` as value of the `metricsSummary` option will give you some more info about your application.
+
+<a href="https://ibb.co/jVgnyv"><img src="https://image.ibb.co/hvMWQa/Screen_Shot_2017_03_16_at_18_41_19.png" alt="Screen_Shot_2017_03_16_at_18_41_19" border="0" width="300"></a><br /><br />
+
+Passing `verbose` you will get some more in-depth info.
+
+<a href="https://ibb.co/gNQfJv"><img src="https://image.ibb.co/jCArQa/Screen_Shot_2017_03_16_at_18_45_52.png" alt="Screen_Shot_2017_03_16_at_18_45_52" border="0" width="600"></a><br /><br />
+
 ## Options
 
 All options are optional. See explanation on example.
