@@ -7,6 +7,10 @@ The plugin works with the help of `webpack dev server` and gathers metrics betwe
 the re-builds (every time you make some changes in your codebase). It is recommended to have
 the hot module replacement disabled when you use this plugin.
 
+***A performance budget provides values against which design, development, content, or any aspect of a site that may affect performance, can be made.***
+
+The aim of the plugin is to analyze the performance of the website against a performance bugdet.
+
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 
