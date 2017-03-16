@@ -60,7 +60,7 @@ PerformanceBudgetPlugin.prototype.apply = function apply(compiler) {
         minY: 0,
         minX: 0,
         color: result.metrics.timeToFirstCss > this.timeToFirstCss ? 'red' : 'green',
-        caption: `Time to first CSS: ${ parseInt(result.offenders.timeToFirstCss) }`
+        caption: `Time to first CSS: ${ result.offenders.timeToFirstCss }`
       }));
 
       console.log('\n\n');
@@ -68,7 +68,7 @@ PerformanceBudgetPlugin.prototype.apply = function apply(compiler) {
         minY: 0,
         minX: 0,
         color: result.metrics.timeToFirstJs > this.timeToFirstJs ? 'red' : 'green',
-        caption: `Time to first JS: ${ parseInt(result.offenders.timeToFirstJs) }`
+        caption: `Time to first JS: ${ result.offenders.timeToFirstJs }`
       }));
 
       console.log('\n\n');
@@ -111,7 +111,7 @@ PerformanceBudgetPlugin.prototype.apply = function apply(compiler) {
         caption: `Time it took to load all page resources (domComplete). Current: ${ parseInt(result.metrics.domComplete) }`
       }));
 
-      if (!this.metricsSummary) {
+      if (this.metricsSummary) {
         console.log('\n\n');
         console.log('############### METRICS SUMMARY #################');
       }
