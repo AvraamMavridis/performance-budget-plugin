@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/AvraamMavridis/performance-budget-plugin/issues"
   },
-  "homepage": "https://github.com/AvraamMavridis/performance-budget-plugin#readme"
+  "homepage": "https://github.com/AvraamMavridis/performance-budget-plugin#readme",
+  "dependencies": {
+    "babar": "0.1.0"
+  }
 }
