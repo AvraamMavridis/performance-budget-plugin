@@ -1,6 +1,6 @@
 {
   "name": "performance-budget-plugin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Performance budget plugin for Webpack",
   "main": "index.js",
   "scripts": {
