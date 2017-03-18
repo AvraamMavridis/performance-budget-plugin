@@ -26,6 +26,7 @@
   "homepage": "https://github.com/AvraamMavridis/performance-budget-plugin#readme",
   "dependencies": {
     "babar": "0.1.0",
+    "colors": "^1.1.2",
     "phantomas": "^1.18.0"
   }
 }
