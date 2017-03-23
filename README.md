@@ -37,7 +37,7 @@ module.exports = {
       domInteractive: 6000, // ms, default: Infinity
       domContentLoaded: 7000, // ms, default: Infinity
       domComplete: 8000, // ms, default: Infinity
-      metricsSummary: 'minimal' // options: [verbose, minimal, true, false], default: false,
+      metricsSummary: 'minimal', // options: [verbose, minimal, true, false], default: false,
       numberOfRebuilds: 3 // number of rebuilds before displaying metrics, default 2
     })
   ]
