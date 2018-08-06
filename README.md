@@ -11,7 +11,7 @@ the hot module replacement disabled when you use this plugin.
 
 The aim of the plugin is to analyze the performance of the website against a performance bugdet.
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![Greenkeeper badge](https://badges.greenkeeper.io/AvraamMavridis/performance-budget-plugin.svg)](https://greenkeeper.io/)
 
 
 ## Install
